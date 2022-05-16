@@ -13,7 +13,7 @@ header {
     position: fixed;
     color: white;
     text-align: center;
-    font-size: samll;
+    font-size: small;
 }
 
 header div img {
@@ -39,13 +39,14 @@ header ul li {
 header ul li a {
     color: inherit;
     text-decoration: none;
-    transition: border-bottom ease 1s;
+    transition: all ease 1s;
     animation-delay: 1s;
 }
 
 header ul li a:hover {
-    border-bottom: 1px solid white;
-    color: inherit;
+    border-bottom: 1px solid darkblue;
+    font-weight: bold;
+    color: darkblue;
 }
 
 header ul li i {
