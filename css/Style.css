@@ -1,0 +1,87 @@
+body {
+    font-family: 'Spectral', serif;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: linear-gradient(50deg, darkgray, darkblue);
+    position: fixed;
+    color: white;
+    text-align: center;
+}
+
+header div img {
+    max-width: 100%;
+    max-height: max-content;
+}
+
+header ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header ul li:first-child {
+    margin-top: 3em;
+}
+
+header ul li {
+    margin: 1em 0;
+    text-align: left;
+    margin-left: .5em;
+}
+
+header ul li a {
+    color: inherit;
+    text-decoration: none;
+    transition: border-bottom ease 1s;
+    animation-delay: 1s;
+}
+
+header ul li a:hover {
+    border-bottom: 1px solid white;
+    color: inherit;
+}
+
+header ul li i {
+    font-size: 2em;
+}
+
+/* Main */
+main {
+    width: 60%;
+    margin: 2em 5% 8% 37%;
+    box-sizing: border-box;
+}
+
+main h2 {
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+
+main h3 {
+    font-weight: inherit;
+}
+
+main h4 {
+    font-weight: inherit;
+}
+
+main .row {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+main .col {
+    box-sizing: border-box;
+    width: 49%;
+    float: left;
+    height: 100%;
+}
+
+main .col:nth-child(2) {
+    margin-left: 2%;
+}
