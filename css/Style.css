@@ -91,7 +91,7 @@ main .row {
     margin: 0;
 }
 
-@media screen and (min-width: 413px) {
+@media screen and (min-width: 600px) {
         header {
             width: 35%;
             height: 100%;
