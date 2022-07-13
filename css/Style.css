@@ -41,7 +41,7 @@ header ul li a {
     text-decoration: none;
     transition: all .6s;
     font-weight: bold;
-    transition-timing-function: cubic-bezier(.17,.67,.77,.48);
+    transition-timing-function: cubic-bezier(.17, .67, .77, .48);
     color: #fff;
 }
 
@@ -97,22 +97,26 @@ main .row {
     margin: 0;
 }
 
+li {
+    padding-bottom: .3em;
+}
+
 @media screen and (min-width: 600px) {
-        header {
-            width: 35%;
-            height: 100%;
-            position: fixed;
-        }
+    header {
+        width: 35%;
+        height: 100%;
+        position: fixed;
+    }
 
-        main {
-            width: 65%;
-            margin-left: 35%;
-            padding: 0 1em;
-        }
+    main {
+        width: 65%;
+        margin-left: 35%;
+        padding: 0 1em;
+    }
 
-        .col {
-            width: 49%;
-            float: left;
-            margin-right: 1%;
-        }
+    .col {
+        width: 49%;
+        float: left;
+        margin-right: 1%;
+    }
 }
