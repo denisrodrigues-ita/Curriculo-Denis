@@ -39,8 +39,10 @@ header ul li {
 header ul li a {
     color: inherit;
     text-decoration: none;
-    transition: all 1s;
+    transition: all .6s;
+    font-weight: bold;
     transition-timing-function: cubic-bezier(.17,.67,.77,.48);
+    color: #fff;
 }
 
 header ul li a:hover {
@@ -61,6 +63,10 @@ header ul li i {
 
 .portfolio ul li {
     margin-top: .5em;
+}
+
+.portfolio ul li a {
+    text-decoration: none;
 }
 
 /* Main */
