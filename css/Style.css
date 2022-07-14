@@ -33,7 +33,7 @@ header ul li:first-child {
 header ul li {
     margin: 1em 0;
     text-align: left;
-    margin-left: .5em;
+    margin-left: 1.5em;
 }
 
 header ul li a {
@@ -71,7 +71,7 @@ header ul li i {
 
 /* Main */
 main {
-    margin: 2%;
+    margin-left: 1.5em;
     box-sizing: border-box;
 }
 
@@ -101,11 +101,15 @@ li {
     padding-bottom: .3em;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
     header {
         width: 35%;
         height: 100%;
         position: fixed;
+    }
+
+    header ul li {
+        margin-left: 1em;
     }
 
     main {
