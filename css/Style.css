@@ -101,6 +101,14 @@ li {
     padding-bottom: .3em;
 }
 
+.certificados li {
+    list-style: none;
+}
+
+.certificados li::before {
+    content: '➮';
+}
+
 @media screen and (min-width: 900px) {
     header {
         width: 35%;
